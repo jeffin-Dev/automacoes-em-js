@@ -1,4 +1,5 @@
-// Função para preencher o formulário
+// Função para preencher um formulário com as informações: 
+// - Nome Completo, Endereço, cidade, estado, cep, teefone, email, numero do Cartão, validade do cartão e código de segurança.
 function preencherFormulario() {
 
     const dados = {
@@ -47,14 +48,14 @@ function preencherFormulario() {
 }
 
 
-// Função para validar o e-mail
+// Função para verificar se o e-mail é válido (Aqui estou levando em consideração que o input de e-mail receba o type= "text").
 function validarEmail(email) {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return regex.test(email);
 }
 
 
-// Função para validar e enviar o formulário
+// Função para validar e enviar o formulário.
 function validarEEnviarFormulario(event) {
     event.preventDefault();
 
