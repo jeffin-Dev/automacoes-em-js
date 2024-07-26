@@ -1,4 +1,4 @@
-Scripts em Java Script que consistem em automatizar o preenchimento de um formulário.
+Scripts em Java Script que consistem em automatizar o preenchimento de um formulário e alterar elementos DOM de uma página.
 
 Tarefa 1: Automatizar preenchimento de um formulário, com uma lógica para validação de e-mail's antes de enviar definitivamente.
 
