@@ -70,7 +70,7 @@ function validarEEnviarFormulario(event) {
 }
 
 
-// Adiciona os eventos ao carregar a página
+// Preenche automaticamente ao carregar a página
 window.onload = function () {
     preencherFormulario();
 
