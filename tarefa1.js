@@ -32,11 +32,11 @@ function validarEmail(email) {
     return regex.test(email);
 }
 
+// Função para encontrar os elementos pelo caminho xpath.
 function getElementByXPath(xpath) {
     return document.evaluate(xpath, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
 }
 
-preencherFormulario1();
 
 // Função para preencher o segundo formulário com as informações: 
 // - CEP, Endereço, Cidade e Estado.
@@ -65,13 +65,6 @@ function preencherFormulario2() {
         console.error('Um ou mais elementos do formulário não foram encontrados.');
     }
 }
-
-// Função para selecionar um elemento usando XPath
-function getElementByXPath(xpath) {
-    return document.evaluate(xpath, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
-}
-
-preencherFormulario2();
 
 
 // Função para preencher o terceiro formulário com as informações:
@@ -102,9 +95,7 @@ function preencherFormulario3() {
     }
 }
 
-// Função para selecionar um elemento usando XPath
-function getElementByXPath(xpath) {
-    return document.evaluate(xpath, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
-}
 
+preencherFormulario1();
+preencherFormulario2();
 preencherFormulario3();
