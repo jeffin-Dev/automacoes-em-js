@@ -8,8 +8,4 @@ function alterarTextoParagrafos() {
 }
 
 
-// Roda a função alterarTextoParagrafos ao entrar na pagina automaticamente.
-window.onload = function () {
-    alterarTextoParagrafos();
-
-}
+alterarTextoParagrafos();
